@@ -26,30 +26,30 @@ def decoracion():
     purple()
     # hola
     print("              |                    1 -->> MsfVenom")
-    print("              |                    3 -->> Phishing")
-    print("              |                    4 -->> Wpscan")
-    print("              |                    5 -->> EvilTrust")
-    print("              |                    6 -->> Spam SMS")
-    print("              |                    7 -->> Exit")    
+    print("              |                    2 -->> Phishing")
+    print("              |                    3 -->> Wpscan")
+    print("              |                    4 -->> EvilTrust")
+    print("              |                    5 -->> Spam SMS")
+    print("              |                    6 -->> Exit")    
     option = input("              +-> ")
 
     if option == "1":
         msf()
 
 
-    if option == "3":
+    if option == "2":
         phishing()
 
-    if option == "4":
+    if option == "3":
         wpscan()
 
-    if option == "5":
+    if option == "4":
         eviltrust()
 
-    if option == "6":
+    if option == "5":
         sms()
 
-    if option == "7":
+    if option == "6":
         os.system("clear")
         exit()
 
